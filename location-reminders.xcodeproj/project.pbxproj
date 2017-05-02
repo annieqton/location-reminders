@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F204BE2F1EB8FF2100658554 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F204BE2E1EB8FF2100658554 /* AddReminderViewController.m */; };
 		F2B8A1881EB7AE8E005870F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A1871EB7AE8E005870F0 /* main.m */; };
 		F2B8A18B1EB7AE8E005870F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A18A1EB7AE8E005870F0 /* AppDelegate.m */; };
 		F2B8A18E1EB7AE8E005870F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A18D1EB7AE8E005870F0 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F204BE2D1EB8FF2100658554 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		F204BE2E1EB8FF2100658554 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 		F2B8A1831EB7AE8E005870F0 /* location-reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "location-reminders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B8A1871EB7AE8E005870F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2B8A1891EB7AE8E005870F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				F2B8A18A1EB7AE8E005870F0 /* AppDelegate.m */,
 				F2B8A18C1EB7AE8E005870F0 /* ViewController.h */,
 				F2B8A18D1EB7AE8E005870F0 /* ViewController.m */,
+				F204BE2D1EB8FF2100658554 /* AddReminderViewController.h */,
+				F204BE2E1EB8FF2100658554 /* AddReminderViewController.m */,
 				F2B8A18F1EB7AE8E005870F0 /* Main.storyboard */,
 				F2B8A1921EB7AE8E005870F0 /* Assets.xcassets */,
 				F2B8A1941EB7AE8E005870F0 /* LaunchScreen.storyboard */,
@@ -193,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F204BE2F1EB8FF2100658554 /* AddReminderViewController.m in Sources */,
 				F2B8A18E1EB7AE8E005870F0 /* ViewController.m in Sources */,
 				F2B8A18B1EB7AE8E005870F0 /* AppDelegate.m in Sources */,
 				F2B8A1881EB7AE8E005870F0 /* main.m in Sources */,
@@ -364,6 +370,7 @@
 				F2B8A19C1EB7AE8E005870F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
